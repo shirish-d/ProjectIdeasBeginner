@@ -238,8 +238,9 @@ Feel free to use any programming language, framework, and database of your choic
 - If you are using Python, you can use Flask or Django
 - If you are using Java, you can use Spring Boot
 - If you are using Ruby, you can use Ruby on Rails
-For databases, you can use:
-- MySQL if you are using SQL
-- MongoDB if you are using NoSQL
+- For databases, you can use:
+  - If you are using SQL, you can use MySQL
+  - If you are using NoSQL, you can use MongoDB
+    
 Your job is to implement the core functionality of the API, focusing on creating, retrieving, updating, and deleting short URLs, as well as tracking and retrieving access statistics.
 You don’t have to implement authentication or authorization for this project.
