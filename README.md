@@ -1,1 +1,1 @@
-# Yps
+# Project Ideas

@@ -1,6 +1,6 @@
 # Project Ideas
 
-## Lab Assignment: Implementing CRUD Operations for a Book Application using ASP.NET Core Web API
+## 1. Lab Assignment: Implementing CRUD Operations for a Book Application using ASP.NET Core Web API
 
 ### Objective
 
@@ -8,12 +8,12 @@ The objective of this lab assignment is to create a RESTful Web API using ASP.NE
 
 ### Requirements
 
-1.Create a new ASP.NET Core Web API project
+#### 1. Create a new ASP.NET Core Web API project
 
 - Use ASP.NET Core 6.0 or later.
 - Name the project BookAPI.
 
-2.Define the Book model
+#### 2. Define the Book model
 
 Create a Book class with the following properties
 
@@ -28,18 +28,18 @@ Create a Book class with the following properties
 }
 ```
 
-3.Set up the database context
+#### 3. Set up the database context
 
 - Use Entity Framework Core to set up the database context.
 - Create a BookContext class that inherits from DbContext.
 - Define a `DbSet<Book>` property in the BookContext class.
 
-4.Configure the database connection
+#### 4. Configure the database connection
 
 - Use an in-memory database for simplicity.
 - Configure the database connection in the appsettings.json file and the Startup class.
 
-5.Implement the CRUD operations
+#### 5. Implement the CRUD operations
 
 - Create a BooksController class that inherits from ControllerBase.
 
@@ -51,7 +51,7 @@ Create a Book class with the following properties
   - UpdateBook: Update an existing book.
   - DeleteBook: Delete a book by its ID.
 
-6.Implement LINQ queries
+#### 6.Implement LINQ queries
 
 - Use LINQ queries to filter, sort, and retrieve data in the GetBooks and GetBookById actions.
 - Example LINQ queries
@@ -59,29 +59,27 @@ Create a Book class with the following properties
   - Retrieve books with a rating higher than a specified value.
   - Retrieve books of a specific genre.
 
-7.Implement Microservices
+#### 7.Implement Microservices
 
 - Split the application into multiple microservices, each responsible for a specific functionality.
 - Create separate microservices for managing books, authors, and genres.
 - Ensure that each microservice has its own database context and controller.
 - Use HTTP communication between microservices to perform CRUD operations.
 
-8.Implement Authorization using JWT tokens
+#### 8.Implement Authorization using JWT tokens
 
 - Add authentication and authorization to the API using JWT tokens.
 - Configure JWT authentication in the Startup class.
 - Protect the CRUD endpoints by requiring a valid JWT token for access.
 - Implement a login endpoint to generate JWT tokens for authenticated users.
 
-9.Test the API
+#### 9.Test the API
 
 - Use Postman or any other API testing tool to test the CRUD operations.
 - Ensure that all operations (Create, Read, Update, Delete) work as expected.
 - Test the authorization by accessing the endpoints with and without a valid JWT token.
 
-
-
-## Movie Reservation System - Advance
+## 2. Movie Reservation System - Advance
 ### Goal
 The goal of this project is to help you understand how to implement complex business logic i.e. seat reservation and scheduling, thinking about the data model and relationships, and complex queries.
 
@@ -118,7 +116,7 @@ Think about how you will handle the scheduling of showtimes.
 Think about how you will handle the reporting of reservations.
 Think about how you will handle the authentication and authorization of users.
 
-## URL Shortening Service - Intermediate
+## 3. URL Shortening Service - Intermediate
 
 You are required to create a simple RESTful API that allows users to shorten long URLs. The API should provide endpoints to create, retrieve, update, and delete short URLs. It should also provide statistics on the number of times a short URL has been accessed.
  ![image](https://github.com/user-attachments/assets/cbb4e144-50f9-4354-9a69-915fa0509d68)
